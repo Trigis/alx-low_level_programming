@@ -1,13 +1,14 @@
 #include "dog.h"
-#include <stdlib.h>
-
+#define NULL (void *)0
 /**
- * init_dog - keeping track of the pups
- * @d: points to dog
- * @name: dog name
- * @age: age of dog
- * @owner: name of dog's owner
- * Return: void
+ * init_dog - initializes dog structure
+ *
+ * @d: struct to initialize
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
+ *
+ * Return: always void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
